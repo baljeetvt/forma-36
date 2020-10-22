@@ -22,13 +22,13 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '16.3.0',
+      version: '16.8.0',
     },
   },
   rules: {
     'react/prop-types': 'off',
     'react/prefer-stateless-function': [0, { ignorePureComponents: true }],
-    'react/jsx-filename-extension': { extensions: ['.js', '.jsx'] },
+    'react/jsx-filename-extension': [0, { extensions: ['.js', '.jsx'] }],
     'react/forbid-prop-types': 0,
     'react/destructuring-assignment': 0,
     'react/jsx-one-expression-per-line': 0,
